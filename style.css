@@ -1,0 +1,145 @@
+
+body {
+  background: url("images/patternLeaf.jpg");
+  color: #171A21;
+}
+
+hr {
+  background: #171A21;
+  width: 50%;
+  height: 2px;
+}
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 15px;
+}
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+p {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header nav {
+  border-radius: 8px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header nav ul li a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+header nav ul li :last-child a{
+  margin-right: 0px;
+}
+
+section {
+  margin-top: 60px;
+  border-radius: 8px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex:1;
+  margin: 10px;
+  justify-content: center;
+}
+.width75 {
+  width: 75%
+}
+.width50 {
+  width: 50%
+}
+.width100 {
+  width: 100%
+}
+
+img {
+  border-radius: 10%;
+}
+a:link {color:#171A21}
+a:visited {color: #51483E}
+a:hover {color: #EEA954}
+a:active {color : #C2B69C}
+
+@media all and (min-width: 700px) {
+.group{
+flex-direction: row;
+ }
+
+header {
+  background: white; 
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+h1 {
+  padding-left: 20px;
+  text-align: left;
+}
+header nav {
+  padding-top: .5px;
+  padding-bottom: 1px;
+}
+header nav ul {
+  justify-content: flex-end;
+}
+
+header nav ul li a {
+  font-size: 20px;
+  margin-right: 30px;
+}
+.background {
+  background:white ;
+}
+}
+
+form label{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: block;
+}
+form input,
+form textare {
+  margin-bottom: 50px;
+  width: 75%;
+}
+form textarea {
+  height: 80px;
+}
+
+form input[type="radio"] {
+  font-size: 50px;
+}
+form input[type="radio"] + label{
+  display: inline-block;
+}
+
+form button {
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 19px;
+  background: #E7E3DA;
+  color: #171A21;
+}

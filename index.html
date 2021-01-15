@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <header>
+      <h1>Cathryn Thurm</h1>
+      <nav id ="menu">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href = "#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      </nav>
+    </header>
+    <main>
+      <section class = "background">
+        <div class = "group">
+          <div class = "item">
+            <img src = "images/ProfilePic0.jpg" class="width50" alt = "A picture of Cathryn Thurm smiling at the camera.">
+          </div>
+          <div class = "item">
+            <h2>Who I Am</h2>
+            <p>I am a software developer specializing in web design. Located in Atlanta, GA but I am willing to relocate for the perfect job.</p>
+            <p>I am passionate about what I do and am always trying to give my clients exactly what they want.</p>
+            <p>My history in sales has made me confident in working with both clients and team members to accomplish a common goal.</p>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section id = "about">
+        <h2>About Me</h2>
+        <div class = "group">
+          <div class = "item">
+            <h3>Hi! I'm Cathryn</h3>
+            <p>I am currently a student at Thinkful. I am set to graduate in March of 2021. Studying in their engineering course I am learning a lot about software development.</p>
+            <p> I can work alone or on a team. However, I like the unique challenges teams provide. I believe that teams push each other to make better more functional code. As well as help each other problem solve and create.</p>
+          </div>
+          <div class = "item">
+            <h3>More about me</h3>
+            <p>I love to create. I am an artist and a 3D printer fanatic. I love challenges and am constantly learning by taking courses. I've taken many classes on Udemy on different subjects, aiming to be a well-rounded programmer.</p>
+            <p>I am passionate about web design because the internet has the unique ability to connect people from all different types of backgrounds. With the world changing rapidly its more important than ever for websites to be functional tools that <em>everyone</em> can use.</p>
+          </div>
+          <div class = "item">
+            <h3>My Services</h3>
+            <p>I work closely with clients to ensure they receive the product they want. I keep my clients informed of every step I make in designing their product so they can collaborate closely with me on their website.</p>
+            <p>I will soon be offering full stack web development. Beautiful frontend designs mixed with functional backend code.</p>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section id = "portfolio">
+        <h2>Portfolio</h2>
+        <div class = "group">
+          <div class = "item">
+            <img src = "images/blurred.png" class = "width75" alt="Pictured: A car with a license plate blurred out.">
+            <h3><a href = "#">Blur License Plates</a></h3>
+            <p>This program uses computer vision to detect and blur <em>Russian</em> license plates using Python and haar feature-based cascade classifiers.</p>
+            <p>This program is for anyone who would like to add a layer of privacy to their photos of cars and was built for practicing computer vision using Open CV.
+            <p>Check out the <a href = "https://github.com/CathrynThurm/Blur_license_plates" target = "_blank">Github repository.</a></p>
+          </div>
+          <div class = "item">
+            <img src = "images/breastcancer.png" class = "width75" alt = "Pictures: A grid of attributes concerning tumor appearance.">
+            <h3><a href = "#">Cancer Prediction</a></h3>
+            <p>This program uses machine learning to predict with %97 accuracy whether a tumor is malignant or benign. Taking over 500 data sets this program makes predictions based off of things like smoothness and concavity.</p>
+            <p>This program can be for medical professionals and was built for practicing machine learning using Scikit-Learn.
+            <p>Check out the <a href = "https://github.com/CathrynThurm/ML_Breast_Cancer" target = "_blank">Github repository.</a></p>
+          </div>
+        </div>
+      </section>
+
+      <hr>
+      <section id = "contact">
+        <h2>Contact Me</h2>
+        <h3>Please contact me and follow my socials</h3>
+        <div class = "group">
+          
+          <div class = "item">
+            <form action ="#" method="POST">
+              <label for="user-name">Name:</label>
+              <input id="user-name" type="text" name="name" placeholder="Jane Doe"/>
+              <label for="user-email">Email:</label>
+              <input id="user-email" type="text" name="email" placeholder="janedoe2018@example.com"/>
+              <label for="user-phone">Phone Number:</label>
+              <input id="user-phone" type = "text" name="number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="xxx-xxx-xxxx">
+              <label for="user-message">Message:</label>
+              <textarea id="user-message" name="message" required
+              maxlength="250" placeholder="250 character limit."></textarea>
+
+              <h3>Please contact me via:</h3>
+                <select name="ContactMethod" size="1">
+                  <option value="text">Email</option>
+                  <option value="call">Call</option>
+                  <option value="email">Text</option>
+                </select>
+
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+          <div class = "item">
+              <p>Phone: <a href ="#">(760)977-0199</a></p>
+              <p>Email: <a href="#">cathrynthurm52@gmail.com</a></p>
+              <p>Github: <a href="https://github.com/CathrynThurm">CathrynThurm</a></p>
+              <p>LinkedIn: <a href="https://www.linkedin.com/in/cathryn-thurm-86a5121b4/">Cathryn Thurm</a></p>
+          </div>
+          <div class = "item">
+            <img src = "images/lets-connect.png" class = "width100" alt="Let's Connect!">
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
